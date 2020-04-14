@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="DataServices.asmx.cs" Class="LuckPrize.DataServices" %>

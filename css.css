@@ -1,0 +1,111 @@
+a { font-style: normal; font-weight: bold; background: transparent; color: #DFDF50; text-decoration:underline; }
+a:hover { font-style: normal; font-weight: bold; background: transparent; color: #50DF50; text-decoration:none; }
+
+h1   { font-family: Helvetica,Verdana,Arial; font-size: 36px; background: transparent; margin: 0px; padding: 0px; }
+h2   { font-family: Helvetica,Verdana,Arial; font-size: 25px; background: transparent; margin: 0px; padding: 0px; }
+h3   { font-family: Helvetica,Verdana,Arial; font-size: 18px; background: transparent; margin: 0px; padding: 0px; }
+h4   { font-family: Helvetica,Verdana,Arial; font-size: 14px; background: transparent; margin: 0px; padding: 0px; }
+h5   { font-family: Helvetica,Verdana,Arial; font-size: 11px; background: transparent; margin: 0px; padding: 0px; }
+h6   { font-family: Helvetica,Verdana,Arial; font-size:  9px; background: transparent; margin: 0px; padding: 0px; }
+
+.nomargin { margin: 1px 1px 1px 1px }
+.usrlstlnk { color:#000000; text-decoration:none; }
+.admmnuhead { color:#FFFF00; font-weight:bold; margin : 1px 1px 1px 1px; }
+.label { color:#B0B0FF; }
+.text { color:#FFFFFF; }
+.register { font-size:11px; display:inline-table; text-align:right; vertical-align:baseline; width:90px; }
+.register2 { display:inline-table; text-align:right; vertical-align:baseline; width:70px; }
+.red { color:#FF0000; }
+.redbold { color:#FF0000; font-weight:bold; }
+.myacclnk { color:#FFFFFF; text-decoration:none; }
+.myacclnk:hover { color:#FFFFFF; text-decoration:underline; }
+.gridPager { font-size:16px; }
+.gridStyle { font-weight:bold; font-size:inherit; }
+.indication { color:#FFFF00; text-decoration:none; }
+.indication:hover { color:#FFFF00; text-decoration:underline; }
+
+.msgheader1 { display:inline-table; width:350px; vertical-align:middle; margin:0px; padding:0px; }
+.msgheader2 { display:inline-table; width:210px; vertical-align:middle; margin:0px; padding:0px; text-align:right; }
+.msgheader3 { display:inline-table; width:450px; vertical-align:middle; margin:0px; padding:0px; text-align:right; }
+.msgchk { display:inline-table; width:30px; vertical-align:middle; }
+.msgfrom {display:inline-table; width:120px; vertical-align:middle; }
+.msgsubject { display:inline-table; width:280px; vertical-align:middle; }
+.msgdate { display:inline-table; width:160px; vertical-align:middle; text-align:right; }
+.msglnk { color:#000000; text-decoration:none; font-weight:bold; }
+.msglnk:hover { color:#305030; text-decoration:underline; font-weight:bold; }
+.msglnk2 { color:#000000; text-decoration:none; font-weight:normal; }
+.msglnk2:hover { color:#305030; background-color:#A0B0D0; text-decoration:none; font-weight:normal; }
+.msglnk2b { color:#000000; text-decoration:none; font-weight:bold; }
+.msglnk2b:hover { color:#305030; background-color:#A0B0D0; text-decoration:none; font-weight:bold; }
+
+body
+{
+  font-family: "Helvetica"; font-size: 12px;
+  background: transparent;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: normal;
+  margin: 16px;
+}
+
+p           { margin : 1px 1px 1px 1px }
+# td          { font-size: 11px; background: transparent; color: #FFFFFF; font-weight: normal }
+hr          { background: transparent; color:#303030; }
+ul          { list-style-image: url("img/bullet_02.gif"); list-style-position:outside; vertical-align:middle; }
+li          { font-size:15px; vertical-align:middle; padding:6px; }
+select      { margin:8px; border-style:inset; border-width:thin; border-color:#48076e; color:#000000; background:#FFFFFF; }
+input       { margin:8px; border-style:inset; border-width:thin; border-color:#48076e; color:#000000; background:#FFFFFF; }
+textarea    { margin:8px; border-style:inset; border-width:thin; border-color:#48076e; color:#000000; background:#FFFFFF; }
+form        { color:#FFFFFF; }
+
+.cal_Theme1 .ajax__calendar_container   {
+    background-color: #e2e2e2;
+    border:solid 1px #cccccc;
+}
+
+.cal_Theme1 .ajax__calendar_header  {
+    background-color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.cal_Theme1 .ajax__calendar_title,
+.cal_Theme1 .ajax__calendar_next,
+.cal_Theme1 .ajax__calendar_prev    {
+    color: #004080;
+    padding-top: 3px;
+}
+
+.cal_Theme1 .ajax__calendar_body    {
+    background-color: #b0b0bf;
+    border: solid 1px #cccccc;
+}
+
+.cal_Theme1 .ajax__calendar_dayname {
+    text-align:center;
+    font-weight:bold;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.cal_Theme1 .ajax__calendar_day {
+    text-align:center;
+}
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,
+.cal_Theme1 .ajax__calendar_active  {
+    color: #004080;
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.cal_Theme1 .ajax__calendar_today   {
+    font-weight:bold;
+}
+
+.cal_Theme1 .ajax__calendar_other,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_today,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_title {
+    color: #505050;
+}
